@@ -1,0 +1,18 @@
+{
+	"ImportPath": "github.com/ae6rt/healthchecks",
+	"GoVersion": "go1.5.3",
+	"Packages": [
+		"."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.2-142-g809154b",
+			"Rev": "809154baa468b77e0f9057c380d1e9c804d6326a"
+		},
+		{
+			"ImportPath": "github.com/streadway/amqp",
+			"Rev": "b4f3ceab0337f013208d31348b578d83c0064744"
+		}
+	]
+}
