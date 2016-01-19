@@ -1,6 +1,7 @@
 all: build
 
 lint:
+	go fmt ./...
 	godep go vet ./...
 
 test: lint
